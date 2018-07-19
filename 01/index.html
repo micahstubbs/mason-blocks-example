@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>US Federal Budget Balance, 1968-2017</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1000" />
+    <script src="d3.js"></script>
+    <script src="sankey.js"></script>
+    <script src="d3-annotation.min.js"></script>
+    <script src="d3-simple-slider.min.js"></script>
+    <style type="text/css">
+    .node rect {
+        fill-opacity: .9;
+        shape-rendering: crispEdges;
+    }
+    .node text {
+        pointer-events: none;
+        text-shadow: 0px 0px 2px #fff;
+        font-weight: 1000;
+    }
+
+    .link {
+        fill: none;
+        stroke: #000;
+        stroke-opacity: .5;
+    }
+    .link:hover {
+        stroke-opacity: 1;
+    }
+    </style>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <!-- Main -->
+    <div id="main">
+        <section id="portfolio" class="two">
+            <div id="container" class="container">
+                <div class="row align-items-center">
+                    <div id="slider"></div>
+                </div>
+                <script src="us-budget-sankey.js"></script>
+            </div>
+            <!--  <div id="timeline-container" class="container">
+                <script src="d3-visualizations/XXX.js"></script>
+            </div>
+            <div id="line-container" class="container">
+                <script src="d3-visualizations/XXX.js"></script>
+            </div> -->
+        </section>
+    </div>
+</body>
+<!-- Scripts -->
+<!-- <script src="jquery.min.js"></script>
+<script src="jquery.scrolly.min.js"></script>
+<script src="jquery.scrollzer.min.js"></script>
+<script src="skel.min.js"></script>
+<script src="util.js"></script>
+<script src="main.js"></script> -->
+</body>
+
+</html>

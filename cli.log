@@ -1,0 +1,115 @@
+➜  workspace git clone git@github.com:micahstubbs/MasonChinkin.github.io.git
+Cloning into 'MasonChinkin.github.io'...
+remote: Counting objects: 758, done.
+remote: Compressing objects: 100% (170/170), done.
+remote: Total 758 (delta 162), reused 147 (delta 74), pack-reused 514
+Receiving objects: 100% (758/758), 23.86 MiB | 4.20 MiB/s, done.
+Resolving deltas: 100% (443/443), done.
+Checking connectivity... done.
+➜  workspace cd MasonChinkin.github.io
+➜  MasonChinkin.github.io git:(master) la
+total 296
+drwxr-xr-x  12 m  staff   384B Jul 18 21:30 .git
+-rw-r--r--   1 m  staff    81B Jul 18 21:30 .gitignore
+-rw-r--r--   1 m  staff    11K Jul 18 21:30 LICENSE
+-rw-r--r--   1 m  staff    17K Jul 18 21:30 LICENSE.txt
+-rw-r--r--   1 m  staff   4.2K Jul 18 21:30 Misc.html
+-rw-r--r--   1 m  staff    42B Jul 18 21:30 README.md
+-rw-r--r--   1 m  staff   1.3K Jul 18 21:30 README.txt
+-rw-r--r--   1 m  staff   4.2K Jul 18 21:30 Random-scatter.html
+drwxr-xr-x   6 m  staff   192B Jul 18 21:30 assets
+-rw-r--r--   1 m  staff   5.4K Jul 18 21:30 congress-2016-map.html
+drwxr-xr-x  12 m  staff   384B Jul 18 21:30 d3-visualizations
+-rw-r--r--   1 m  staff   5.4K Jul 18 21:30 europe-trip.html
+-rw-r--r--   1 m  staff   5.5K Jul 18 21:30 gdp.html
+drwxr-xr-x  22 m  staff   704B Jul 18 21:30 images
+-rw-r--r--   1 m  staff    10K Jul 18 21:30 index.html
+-rw-r--r--   1 m  staff   365B Jul 18 21:30 index.sublime-project
+-rw-r--r--   1 m  staff    15K Jul 18 21:30 index.sublime-workspace
+-rw-r--r--   1 m  staff   4.3K Jul 18 21:30 line-area-charts.html
+-rw-r--r--   1 m  staff   4.9K Jul 18 21:30 networks.html
+-rw-r--r--   1 m  staff   6.1K Jul 18 21:30 swiss-army-bar-chart.html
+-rw-r--r--   1 m  staff   5.4K Jul 18 21:30 us-budget-sankey.html
+drwxr-xr-x  23 m  staff   736B Jul 18 21:30 viz-data
+➜  MasonChinkin.github.io git:(master) git remote add upstream git@github.com:micahstubbs/MasonChinkin.github.io.git
+➜  MasonChinkin.github.io git:(master) git pull upstream master
+From github.com:micahstubbs/MasonChinkin.github.io
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> upstream/master
+Already up-to-date.
+➜  MasonChinkin.github.io git:(master) la
+total 296
+drwxr-xr-x  14 m  staff   448B Jul 18 21:31 .git
+-rw-r--r--   1 m  staff    81B Jul 18 21:30 .gitignore
+-rw-r--r--   1 m  staff    11K Jul 18 21:30 LICENSE
+-rw-r--r--   1 m  staff    17K Jul 18 21:30 LICENSE.txt
+-rw-r--r--   1 m  staff   4.2K Jul 18 21:30 Misc.html
+-rw-r--r--   1 m  staff    42B Jul 18 21:30 README.md
+-rw-r--r--   1 m  staff   1.3K Jul 18 21:30 README.txt
+-rw-r--r--   1 m  staff   4.2K Jul 18 21:30 Random-scatter.html
+drwxr-xr-x   6 m  staff   192B Jul 18 21:30 assets
+-rw-r--r--   1 m  staff   5.4K Jul 18 21:30 congress-2016-map.html
+drwxr-xr-x  12 m  staff   384B Jul 18 21:30 d3-visualizations
+-rw-r--r--   1 m  staff   5.4K Jul 18 21:30 europe-trip.html
+-rw-r--r--   1 m  staff   5.5K Jul 18 21:30 gdp.html
+drwxr-xr-x  22 m  staff   704B Jul 18 21:30 images
+-rw-r--r--   1 m  staff    10K Jul 18 21:30 index.html
+-rw-r--r--   1 m  staff   365B Jul 18 21:30 index.sublime-project
+-rw-r--r--   1 m  staff    15K Jul 18 21:30 index.sublime-workspace
+-rw-r--r--   1 m  staff   4.3K Jul 18 21:30 line-area-charts.html
+-rw-r--r--   1 m  staff   4.9K Jul 18 21:30 networks.html
+-rw-r--r--   1 m  staff   6.1K Jul 18 21:30 swiss-army-bar-chart.html
+-rw-r--r--   1 m  staff   5.4K Jul 18 21:30 us-budget-sankey.html
+drwxr-xr-x  23 m  staff   736B Jul 18 21:30 viz-data
+➜  MasonChinkin.github.io git:(master) sb .
+➜  MasonChinkin.github.io git:(master) cd ..
+➜  workspace mkdir mason-blocks-example
+➜  workspace cd mason-blocks-example
+➜  mason-blocks-example echo "# mason-blocks-example" >> README.md
+➜  mason-blocks-example la
+total 8
+-rw-r--r--  1 m  staff    23B Jul 18 21:35 README.md
+➜  mason-blocks-example bless
+Initialized empty Git repository in /Users/m/workspace/mason-blocks-example/.git/
+➜  mason-blocks-example git:(master) ✗ la
+total 8
+drwxr-xr-x  9 m  staff   288B Jul 18 21:35 .git
+-rw-r--r--  1 m  staff    23B Jul 18 21:35 README.md
+➜  mason-blocks-example git:(master) ✗ gaa
+➜  mason-blocks-example git:(master) ✗ gst
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+  new file:   README.md
+
+➜  mason-blocks-example git:(master) ✗ gcmsg "add project"
+[master (root-commit) 761017d] add project
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+➜  mason-blocks-example git:(master) gst
+On branch master
+nothing to commit, working directory clean
+➜  mason-blocks-example git:(master) git log
+➜  mason-blocks-example git:(master) git remote add origin git@github.com:micahstubbs/mason-blocks-example.git
+➜  mason-blocks-example git:(master) git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 233 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:micahstubbs/mason-blocks-example.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+➜  mason-blocks-example git:(master) la
+total 8
+drwxr-xr-x  12 m  staff   384B Jul 18 21:37 .git
+-rw-r--r--   1 m  staff    23B Jul 18 21:35 README.md
+➜  mason-blocks-example git:(master) mkdir 00
+➜  mason-blocks-example git:(master) la
+total 8
+drwxr-xr-x  12 m  staff   384B Jul 18 21:38 .git
+drwxr-xr-x   2 m  staff    64B Jul 18 21:38 00
+-rw-r--r--   1 m  staff    23B Jul 18 21:35 README.md
+➜  mason-blocks-example git:(master) cd 00

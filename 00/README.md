@@ -1,6 +1,4 @@
-# us-budget-sankey
-
-### US Federal Budget Balance, 1968-2017  
+#### US Federal Budget Balance, 1968-2017  
 
 Remaining goals for this piece: 
 
@@ -10,4 +8,5 @@ Remaining goals for this piece:
 
 a visualization by [MasonChinkin](https://bl.ocks.org/MasonChinkin), posted together as a #d3js learning exercise on night after a [d3 meetup](https://www.meetup.com/Bay-Area-d3-User-Group/events/252372084/)
 
-see the example in webpage form as well at [https://masonchinkin.github.io/us-budget-sankey.html#portfolio](https://masonchinkin.github.io/us-budget-sankey.html#portfolio)
+see the example in webpage form as well at  
+[https://masonchinkin.github.io/us-budget-sankey.html#portfolio](https://masonchinkin.github.io/us-budget-sankey.html#portfolio)
